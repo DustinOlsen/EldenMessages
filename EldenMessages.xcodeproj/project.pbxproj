@@ -11,6 +11,7 @@
 		BBB3BEBD28134EA300E1A969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3BEBC28134EA300E1A969 /* ContentView.swift */; };
 		BBB3BEBF28134EA300E1A969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3BEBE28134EA300E1A969 /* Assets.xcassets */; };
 		BBB3BEC228134EA400E1A969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3BEC128134EA400E1A969 /* Preview Assets.xcassets */; };
+		BBB3BEC928134EC300E1A969 /* MessageTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3BEC828134EC300E1A969 /* MessageTemplates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BBB3BEBC28134EA300E1A969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBB3BEBE28134EA300E1A969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB3BEC128134EA400E1A969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBB3BEC828134EC300E1A969 /* MessageTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BBB3BEBA28134EA300E1A969 /* EldenMessagesApp.swift */,
 				BBB3BEBC28134EA300E1A969 /* ContentView.swift */,
+				BBB3BEC828134EC300E1A969 /* MessageTemplates.swift */,
 				BBB3BEBE28134EA300E1A969 /* Assets.xcassets */,
 				BBB3BEC028134EA400E1A969 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB3BEC928134EC300E1A969 /* MessageTemplates.swift in Sources */,
 				BBB3BEBD28134EA300E1A969 /* ContentView.swift in Sources */,
 				BBB3BEBB28134EA300E1A969 /* EldenMessagesApp.swift in Sources */,
 			);

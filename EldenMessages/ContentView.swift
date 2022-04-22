@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var message = createMessage(template: selectedTemplate, selection: selection)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text(message)
     }
 }
 
